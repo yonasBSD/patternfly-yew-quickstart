@@ -1,8 +1,8 @@
 use crate::{example, example::ExamplePage};
 use patternfly_yew::{
     components::table::{
-        use_table_data, Cell, CellContext, MemoizedTableModel, Table, TableColumn,
-        TableEntryRenderer, TableHeader, UseTableData,
+        Cell, CellContext, MemoizedTableModel, Table, TableColumn, TableEntryRenderer, TableHeader,
+        UseTableData, use_table_data,
     },
     components::toolbar::{Toolbar, ToolbarContent},
     prelude::*,

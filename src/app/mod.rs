@@ -7,8 +7,8 @@ use crate::layouts;
 use crate::{icons::Icons, panic::Panic};
 use patternfly_yew::prelude::*;
 use yew::prelude::*;
-use yew_nested_router::prelude::{Switch as RouterSwitch, *};
 use yew_nested_router::Target;
+use yew_nested_router::prelude::{Switch as RouterSwitch, *};
 
 mod about;
 
